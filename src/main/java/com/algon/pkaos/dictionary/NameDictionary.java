@@ -1,8 +1,11 @@
 package com.algon.pkaos.dictionary;
 
-public class NameDictionary {
+import java.util.Arrays;
+import java.util.List;
 
-    public static final String[] CHARACTER = new String[] {
+public class NameDictionary {
+    //TODO: move data to the db
+    public static final List<String> CHARACTERS = Arrays.asList(
             "Good",
             "Bad",
             "Evil",
@@ -13,10 +16,9 @@ public class NameDictionary {
             "Furious",
             "Wild",
             "Crazy",
-            "Silent"
-    };
+            "Silent");
 
-    public static final String[] APPEARANCE = new String[] {
+    public static final List<String> APPEARANCES = Arrays.asList(
             "Plump",
             "Skinny",
             "Three-Legged",
@@ -27,9 +29,9 @@ public class NameDictionary {
             "Bald",
             "Wet",
             "Scrumpy"
-    };
+    );
 
-    public static final String[] NAME = new String[] {
+    public static final List<String> NAMES = Arrays.asList(
             "Dingo",
             "Chip",
             "Aliot",
@@ -46,5 +48,5 @@ public class NameDictionary {
             "Spoke",
             "Larry",
             "Juliet"
-    };
+    );
 }
