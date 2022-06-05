@@ -4,5 +4,5 @@ public interface NickGeneratorService {
 
     String generateNick();
 
-    String generateNick(String character, String appearance, String name, String gender, String group, String color);
+    String generateNick(String character, String appearance, String name);
 }
